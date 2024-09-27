@@ -2,7 +2,7 @@
 
 .App {
   text-align: center;
-  width: 100%;
+  width: 100% !important;
   overflow-x: hidden;
 }
 
@@ -27,4 +27,59 @@
 
 .subTitle {
   color: $subTitle;
+}
+// Global typography styles
+body {
+  font-size: 16px; // Base font size
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 2.5rem !important; // 40px (reduced from the original size)
+  margin-bottom: 1rem !important;
+}
+
+h2 {
+  font-size: 2rem !important; // 32px
+  margin-bottom: 0.75rem !important;
+}
+
+h3 {
+  font-size: 1.75rem !important; // 28px
+  margin-bottom: 0.5rem !important;
+}
+
+h4 {
+  font-size: 1.5rem !important; // 24px
+  margin-bottom: 0.5rem !important;
+}
+
+h5 {
+  font-size: 1.25rem !important; // 20px
+  margin-bottom: 0.5rem !important;
+}
+
+h6 {
+  font-size: 1rem !important; // 16px
+  margin-bottom: 0.5rem !important;
+}
+
+p {
+  font-size: 1rem !important; // 16px
+  margin-bottom: 1rem !important;
+}
+
+// Adjust for smaller screens
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem !important; // 32px on smaller screens
+  }
+
+  h2 {
+    font-size: 1.75rem !important; // 28px on smaller screens
+  }
+
+  h3 {
+    font-size: 1.5rem !important; // 24px on smaller screens
+  }
 }

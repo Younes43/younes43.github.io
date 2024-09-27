@@ -58,6 +58,37 @@
   color: $subTitle;
 }
 
+
+.contact-detail,
+.contact-detail-email,
+.desc-prof {
+  line-height: 1.5; // Reduced from 45px
+  font-size: 19px;
+  font-weight: 400;
+  color: $subTitle;
+  text-decoration: none;
+  display: block; // Change to block for better control
+  margin-bottom: 10px; // Add some space between items
+}
+
+.contact-detail:hover,
+.contact-detail-email:hover {
+  color:  $subTitle;
+  text-shadow: 2px 1px 2px $lightBoxShadow;
+  transition: all 0.3s;
+}
+
+.location-div,
+.opp-div {
+  margin-bottom: 10px; // Consistent spacing
+}
+
+// Remove or reduce any padding that might be causing extra space
+.contact-text-div > div {
+  padding: 0;
+  margin-bottom: 10px;
+}
+
 @media (max-width: 768px) {
   .row {
     display: flex;
@@ -79,7 +110,9 @@
     order: 1;
   }
 
-  .desc-prof {
+  .desc-prof,
+  .contact-detail,
+  .contact-detail-email {
     line-height: 30px;
     font-size: 16px;
   }
