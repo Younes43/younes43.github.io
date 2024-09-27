@@ -20,7 +20,7 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Younes EL Bouzekraoui",
+  username: "Younes43",
   title: "Hi all, I'm Younes",
   subTitle: emoji(
     "A passionate Software Developer 🚀 having an experience Full Stack Developpement, Data Science and Machine learning  with Python / JavaScript / C++ / Java / Reactjs / Nodejs / Tensorflow / Pytorch and some other cool libraries and frameworks."
@@ -45,62 +45,59 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "VERSATILE FULL STACK DEVELOPER WITH A FOCUS ON DATA-DRIVEN APPLICATIONS",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Develop and maintain full stack web applications, utilizing modern frameworks and robust backend technologies to enhance user experience and functionality."
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡   Develop machine learning models and data-driven solutions to solve complex problems in various domains such as Forecasting, Classification, Object detection, utilizing libraries like TensorFlow, PyTorch, and Scikit-Learn."),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+      "⚡  Implement and manage databases with expertise in PostgreSQL and MySQL, ensuring efficient data storage, retrieval, and integrity."
+    ),
+    emoji(
+      "⚡ Build and integrate data processing pipelines using advanced tools like Spark, Hadoop, and cloud services from AWS and Azure to handle large-scale data operations effectively."
+    ),
+    emoji(
+      "⚡  Ensure high application performance and security through best practices in continuous integration, containerization with Docker, and orchestration with Kubernetes."
+    ),
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
-  softwareSkills: [
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "C++",
-      fontAwesomeClassname: "fab fa-cuttlefish"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    }
-  ],
+softwareSkills: [
+  { skillName: "Python" },
+  { skillName: "JavaScript" },
+  { skillName: "C++" },
+  { skillName: "SQL" },
+  { skillName: "Docker" },
+  { skillName: "React" },
+  { skillName: "Node.js" },
+  { skillName: "AWS" },
+  { skillName: "HTML5" },
+  { skillName: "CSS3" },
+  { skillName: "TypeScript" },
+  { skillName: "Java" },
+  { skillName: "R" },
+  { skillName: "Express.js" },
+  // { skillName: "Bootstrap" },
+  { skillName: "FastAPI" },
+  { skillName: "Celery" },
+  { skillName: "Postman" },
+  { skillName: "TensorFlow" },
+  { skillName: "PyTorch" },
+  { skillName: "scikit-learn" },
+  { skillName: "Spark" },
+  { skillName: "Hadoop" },
+  { skillName: "OpenCV" },
+  { skillName: "PostgreSQL" },
+  { skillName: "MongoDB" },
+  { skillName: "Git" },
+  // { skillName: "NoSQL" },
+  { skillName: "Azure" },
+  { skillName: "Kubernetes" },
+],
+  
   display: true // Set false to hide this section, defaults to true
 };
 
@@ -168,27 +165,38 @@ const workExperiences = {
       role: "Research Assistant",
       company: "Georgia Tech Research Institute",
       companylogo: require("./assets/images/gtri.jpeg"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      date: "Jan 2023 – Dec 2023",
+      descBullets: [ "Contributed to a Georgia Department of Transportation project for automated curve signs inventorying, helping in improved road safety in the state of Georgia.",
+        "Achieved a 65% reduction in traffic sign inventory time for transportation agencies by developing a Deep Learning object detection application using Python and JavaScript, containerized with Docker and deployed on AWS EC2.",
+        "Increased traffic sign detection accuracy from 92% to 97% by implementing a human feedback loop to refine image data quality for retraining the machine learning model.",
+        "Supervised 5 student groups in deep learning and computer vision projects on vehicle and sidewalk detection" 
+      ]
     },
     {
       role: "Software Engineer Intern",
       company: "Airbus Defence and Space",
       companylogo: require("./assets/images/ads.png"),
-      date: "June 2018 – Present",
+      date: "May 2022 – November 2022",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+        "Created a Web application allowing the prediction of satellite costs for expense forecasting with 85% accuracy using Python’s Dash and Sklearn libraries, and JavaScript, used by 20+ cost engineers.",
+        "Designed interactive dashboards and KPIs for satellite cost market analysis, utilized by 50+ division members, resulting in a 25% reduction in decision-making time and easier identification of cost-saving trends.",
+        "Improved consistency in satellite equipment costs data, leading to a 70% reduction in data retrieval time.",
+        "Collaborated with cross-functional teams to provide data-driven insights and recommendations."
+    ]
+    
     },
     {
       role: "Software Engineer Intern",
       company: "Airbus",
       companylogo: require("./assets/images/airbus.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    }
+      date: "June 2021 – October 2021",
+      descBullets: [
+        "Designed and implemented data processing pipelines for monitoring an aircraft anomaly using Spark and PostgreSQL, integrating 10+ data sources and processing over 2TB of flight radar data daily.",
+        "Reduced data processing time by 40% using Spark on a cluster of nodes for processing large-scale datasets of 5TB.",
+        "Prepared dashboards with JavaScript, HTML, and CSS to visualize flight management system data, for anomaly detection and forecasting, and decision-making support, used by 200+ personnel across 2 departments."
+    ]
+        }
     
   ]
 };
@@ -355,7 +363,7 @@ const podcastSection = {
 const resumeSection = {
   title: "Resume",
   subtitle: "Feel free to download my resume",
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
