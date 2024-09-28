@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b01a4437.css",
-    "main.js": "/static/js/main.e0c7d1d1.js",
+    "main.css": "/static/css/main.60f479ae.css",
+    "main.js": "/static/js/main.99db2340.js",
     "static/css/487.3325d0bf.chunk.css": "/static/css/487.3325d0bf.chunk.css",
     "static/js/487.5759a9b1.chunk.js": "/static/js/487.5759a9b1.chunk.js",
     "static/css/990.a4be1efa.chunk.css": "/static/css/990.a4be1efa.chunk.css",
@@ -10,6 +10,7 @@
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/resume.pdf": "/static/media/resume.935ca2e85cdf2952877d.pdf",
     "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/logo_n7.jpg": "/static/media/logo_n7.1634f764d51a78916263.jpg",
     "static/media/manOnTable.svg": "/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
     "static/media/ads.png": "/static/media/ads.e541d027807ff24a9f31.png",
     "static/media/contactMailDark.svg": "/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
@@ -23,15 +24,15 @@
     "static/media/nextuLogo.webp": "/static/media/nextuLogo.e033dbfa4c58c0a906aa.webp",
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
-    "main.b01a4437.css.map": "/static/css/main.b01a4437.css.map",
-    "main.e0c7d1d1.js.map": "/static/js/main.e0c7d1d1.js.map",
+    "main.60f479ae.css.map": "/static/css/main.60f479ae.css.map",
+    "main.99db2340.js.map": "/static/js/main.99db2340.js.map",
     "487.3325d0bf.chunk.css.map": "/static/css/487.3325d0bf.chunk.css.map",
     "487.5759a9b1.chunk.js.map": "/static/js/487.5759a9b1.chunk.js.map",
     "990.a4be1efa.chunk.css.map": "/static/css/990.a4be1efa.chunk.css.map",
     "990.ca95cbe5.chunk.js.map": "/static/js/990.ca95cbe5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b01a4437.css",
-    "static/js/main.e0c7d1d1.js"
+    "static/css/main.60f479ae.css",
+    "static/js/main.99db2340.js"
   ]
 }
