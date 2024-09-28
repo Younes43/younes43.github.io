@@ -124,7 +124,7 @@ const educationInfo = {
     },
     {
       schoolName: "ENSEIHT Engineering",
-      logo: require("./assets/images/n7.jpg"),
+      logo: require("./assets/images/logo_n7.jpg"),
       subHeader: "Bachelor of Science in Computer Science",
       duration: "September 2017 - April 2017",
       desc: "Ranked top 10% in the program.",
