@@ -31,22 +31,22 @@ export default function Contact() {
             >
               {contactInfo.number && (
                 <div className="contact-detail-div">
+                  <a
+                    className="contact-detail"
+                    href={"tel:" + contactInfo.number}
+                  >
+                    {contactInfo.number}
+                  </a>
+                </div>
+              )}
+              <div className="contact-detail-div">
                 <a
-                  className="contact-detail"
-                  href={"tel:" + contactInfo.number}
+                  className="contact-detail-email"
+                  href={"mailto:" + contactInfo.email_address}
                 >
-                  {contactInfo.number}
+                  {contactInfo.email_address}
                 </a>
               </div>
-            )}
-            <div className="contact-detail-div">
-              <a
-                className="contact-detail-email"
-                href={"mailto:" + contactInfo.email_address}
-              >
-                {contactInfo.email_address}
-              </a>
-            </div>
               <SocialMedia />
             </div>
           </div>
