@@ -45,12 +45,15 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "VERSATILE FULL STACK DEVELOPER WITH A FOCUS ON DATA-DRIVEN APPLICATIONS",
+  subTitle:
+    "VERSATILE FULL STACK DEVELOPER WITH A FOCUS ON DATA-DRIVEN APPLICATIONS",
   skills: [
     emoji(
       "⚡ Develop and maintain full stack web applications, utilizing modern frameworks and robust backend technologies to enhance user experience and functionality."
     ),
-    emoji("⚡   Develop machine learning models and data-driven solutions to solve complex problems in various domains such as Forecasting, Classification, Object detection, utilizing libraries like TensorFlow, PyTorch, and Scikit-Learn."),
+    emoji(
+      "⚡   Develop machine learning models and data-driven solutions to solve complex problems in various domains such as Forecasting, Classification, Object detection, utilizing libraries like TensorFlow, PyTorch, and Scikit-Learn."
+    ),
     emoji(
       "⚡  Implement and manage databases with expertise in PostgreSQL and MySQL, ensuring efficient data storage, retrieval, and integrity."
     ),
@@ -59,45 +62,45 @@ const skillsSection = {
     ),
     emoji(
       "⚡  Ensure high application performance and security through best practices in continuous integration, containerization with Docker, and orchestration with Kubernetes."
-    ),
+    )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
-softwareSkills: [
-  { skillName: "Python" },
-  { skillName: "JavaScript" },
-  { skillName: "C++" },
-  { skillName: "SQL" },
-  { skillName: "Docker" },
-  { skillName: "React" },
-  { skillName: "Node.js" },
-  { skillName: "AWS" },
-  { skillName: "HTML5" },
-  { skillName: "CSS3" },
-  { skillName: "TypeScript" },
-  { skillName: "Java" },
-  { skillName: "R" },
-  { skillName: "Express.js" },
-  // { skillName: "Bootstrap" },
-  { skillName: "FastAPI" },
-  { skillName: "Celery" },
-  { skillName: "Postman" },
-  { skillName: "TensorFlow" },
-  { skillName: "PyTorch" },
-  { skillName: "scikit-learn" },
-  { skillName: "Spark" },
-  { skillName: "Hadoop" },
-  { skillName: "OpenCV" },
-  { skillName: "PostgreSQL" },
-  { skillName: "MongoDB" },
-  { skillName: "Git" },
-  // { skillName: "NoSQL" },
-  { skillName: "Azure" },
-  { skillName: "Kubernetes" },
-],
-  
+  softwareSkills: [
+    {skillName: "Python"},
+    {skillName: "JavaScript"},
+    {skillName: "C++"},
+    {skillName: "SQL"},
+    {skillName: "Docker"},
+    {skillName: "React"},
+    {skillName: "Node.js"},
+    {skillName: "AWS"},
+    {skillName: "HTML5"},
+    {skillName: "CSS3"},
+    {skillName: "TypeScript"},
+    {skillName: "Java"},
+    {skillName: "R"},
+    {skillName: "Express.js"},
+    // { skillName: "Bootstrap" },
+    {skillName: "FastAPI"},
+    {skillName: "Celery"},
+    {skillName: "Postman"},
+    {skillName: "TensorFlow"},
+    {skillName: "PyTorch"},
+    {skillName: "scikit-learn"},
+    {skillName: "Spark"},
+    {skillName: "Hadoop"},
+    {skillName: "OpenCV"},
+    {skillName: "PostgreSQL"},
+    {skillName: "MongoDB"},
+    {skillName: "Git"},
+    // { skillName: "NoSQL" },
+    {skillName: "Azure"},
+    {skillName: "Kubernetes"}
+  ],
+
   display: true // Set false to hide this section, defaults to true
 };
 
@@ -128,8 +131,8 @@ const educationInfo = {
       descBullets: [
         "Algorithms and Data Structures",
         "Cloud and Distributed computing",
-        "Big Data High-Performance Computing",  
-        "Statistics and Probability" 
+        "Big Data High-Performance Computing",
+        "Statistics and Probability"
       ]
     }
   ]
@@ -166,10 +169,11 @@ const workExperiences = {
       company: "Georgia Tech Research Institute",
       companylogo: require("./assets/images/gtri.jpeg"),
       date: "Jan 2023 – Dec 2023",
-      descBullets: [ "Contributed to a Georgia Department of Transportation project for automated curve signs inventorying, helping in improved road safety in the state of Georgia.",
+      descBullets: [
+        "Contributed to a Georgia Department of Transportation project for automated curve signs inventorying, helping in improved road safety in the state of Georgia.",
         "Achieved a 65% reduction in traffic sign inventory time for transportation agencies by developing a Deep Learning object detection application using Python and JavaScript, containerized with Docker and deployed on AWS EC2.",
         "Increased traffic sign detection accuracy from 92% to 97% by implementing a human feedback loop to refine image data quality for retraining the machine learning model.",
-        "Supervised 5 student groups in deep learning and computer vision projects on vehicle and sidewalk detection" 
+        "Supervised 5 student groups in deep learning and computer vision projects on vehicle and sidewalk detection"
       ]
     },
     {
@@ -183,8 +187,7 @@ const workExperiences = {
         "Designed interactive dashboards and KPIs for satellite cost market analysis, utilized by 50+ division members, resulting in a 25% reduction in decision-making time and easier identification of cost-saving trends.",
         "Improved consistency in satellite equipment costs data, leading to a 70% reduction in data retrieval time.",
         "Collaborated with cross-functional teams to provide data-driven insights and recommendations."
-    ]
-    
+      ]
     },
     {
       role: "Software Engineer Intern",
@@ -195,9 +198,8 @@ const workExperiences = {
         "Designed and implemented data processing pipelines for monitoring an aircraft anomaly using Spark and PostgreSQL, integrating 10+ data sources and processing over 2TB of flight radar data daily.",
         "Reduced data processing time by 40% using Spark on a cluster of nodes for processing large-scale datasets of 5TB.",
         "Prepared dashboards with JavaScript, HTML, and CSS to visualize flight management system data, for anomaly detection and forecasting, and decision-making support, used by 200+ personnel across 2 departments."
-    ]
-        }
-    
+      ]
+    }
   ]
 };
 

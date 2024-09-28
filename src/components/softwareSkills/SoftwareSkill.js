@@ -2,7 +2,7 @@
 
 import React from "react";
 import "./SoftwareSkill.scss";
-import { skillsSection } from "../../portfolio";
+import {skillsSection} from "../../portfolio";
 
 // Import icons from react-icons
 import {
@@ -15,7 +15,7 @@ import {
   FaCss3Alt,
   FaReact,
   FaNodeJs,
-  FaGitAlt,
+  FaGitAlt
 } from "react-icons/fa";
 import {
   SiTypescript,
@@ -35,11 +35,11 @@ import {
   SiPostman,
   SiMicrosoftazure,
   SiR,
-  SiBootstrap,
+  SiBootstrap
   // SiNosql,
 } from "react-icons/si";
-import { DiDatabase } from "react-icons/di";
-import { VscServerProcess } from "react-icons/vsc";
+import {DiDatabase} from "react-icons/di";
+import {VscServerProcess} from "react-icons/vsc";
 
 const skillIconMap = {
   Python: <FaPython />,
@@ -63,15 +63,15 @@ const skillIconMap = {
   TensorFlow: <SiTensorflow />,
   PyTorch: <SiPytorch />,
   "scikit-learn": <SiScikitlearn />,
-  "Spark": <SiApachespark />,
-  "Hadoop": <SiApache />,
+  Spark: <SiApachespark />,
+  Hadoop: <SiApache />,
   OpenCV: <SiOpencv />,
   PostgreSQL: <SiPostgresql />,
   MongoDB: <SiMongodb />,
   Git: <FaGitAlt />,
   // NoSQL: <SiNosql />,
   Azure: <SiMicrosoftazure />,
-  Kubernetes: <SiKubernetes />,
+  Kubernetes: <SiKubernetes />
 };
 
 export default function SoftwareSkill() {
@@ -81,7 +81,11 @@ export default function SoftwareSkill() {
         <ul className="dev-icons">
           {skillsSection.softwareSkills.map((skill, i) => {
             return (
-              <li key={i} className="software-skill-inline" name={skill.skillName}>
+              <li
+                key={i}
+                className="software-skill-inline"
+                name={skill.skillName}
+              >
                 {skillIconMap[skill.skillName] || <VscServerProcess />}
                 <p>{skill.skillName}</p>
               </li>
@@ -92,4 +96,3 @@ export default function SoftwareSkill() {
     </div>
   );
 }
-

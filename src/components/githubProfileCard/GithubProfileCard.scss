@@ -58,7 +58,6 @@
   color: $subTitle;
 }
 
-
 .contact-detail,
 .contact-detail-email,
 .desc-prof {
@@ -73,7 +72,7 @@
 
 .contact-detail:hover,
 .contact-detail-email:hover {
-  color:  $subTitle;
+  color: $subTitle;
   text-shadow: 2px 1px 2px $lightBoxShadow;
   transition: all 0.3s;
 }
