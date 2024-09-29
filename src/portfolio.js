@@ -110,7 +110,7 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Georgia Institute of Technology",
+      schoolName: "GEORGIA INSTITUTE OF TECHNOLOGY",
       logo: require("./assets/images/gatech.png"),
       subHeader: "Master of Science in Computer Science",
       duration: "January 2022 - December 2023",
@@ -123,11 +123,11 @@ const educationInfo = {
       ]
     },
     {
-      schoolName: "ENSEIHT Engineering",
+      schoolName: "ENSEIHT ENGINEERING SCHOOL",
       logo: require("./assets/images/logo_n7.jpg"),
       subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2017 - April 2017",
-      desc: "Ranked top 10% in the program.",
+      duration: "September 2017 - December 2021",
+      desc: "Ranked top 5% in the program.",
       descBullets: [
         "Algorithms and Data Structures",
         "Cloud and Distributed computing",
